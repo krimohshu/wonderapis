@@ -10,3 +10,7 @@ dockerfile
 Parllel tests - springtestapplication
 Run on QA, dev and stage env 
 maven 
+
+To run tests on different Spring A-profile
+
+mvn clean -Dspring.profiles.active=qa test
